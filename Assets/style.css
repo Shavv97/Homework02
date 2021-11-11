@@ -1,0 +1,177 @@
+body {
+  background-color: brown;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px rgb(214, 18, 18);
+}
+
+.title {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-left:40%
+}
+
+.navbar {
+  background-color: brown;
+  width: 100%;
+}
+
+.name {
+  font-size: 50px;
+  color: white;
+}
+
+.foot {
+  background-color: brown;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50%;
+  width: 100%;
+}
+
+.catpic {
+  height: auto;
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background-color: #CBF3F0;
+  border: #E89119 5px;
+  padding: 5px;
+  margin-right: 5px;
+  width: 18rem;
+  height: 20rem;
+}
+
+.catpic6 {
+  width: 100%;
+  height: 200px;
+}
+
+.container2 {
+  display: grid;
+  width: 80%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  font-size: 30px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  border: #E89119 5px;
+}
+
+.col-md-4 {
+  flex: auto;
+  width: 33.3%;
+}
+
+.footerdiv {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px white;
+  }
+  .title {
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 30%;
+  }
+  .navbar {
+    background-color: brown
+    width: 100%;
+  }
+  .name {
+    font-size: 30px;
+    color: white;
+  }
+  .foot {
+    background-color: #E89119;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100%;
+    position: absolute;
+  }
+  .selfie {
+    width: 100%;
+    height: 100%;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+  }
+  .card {
+    background-color: #CBF3F0;
+    border: #E89119 5px;
+    padding: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 20rem;
+  }
+  .linkedIn {
+    width: 25%;
+    height: 25%;
+  }
+  .container2 {
+    display: grid;
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-link {
+    font-size: 10px;
+    color: white;
+  }
+  .col-sm-4 {
+    width: 100%;
+    height: 50%;
+    background-color: #CBF3F0;
+  }
+  .card-text {
+    font-size: 10px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  .col-md-4 {
+    flex: auto;
+    width: auto;
+  }
+  .footerdiv {
+    position: relative;
+    width: 100%;
+  }
+}
