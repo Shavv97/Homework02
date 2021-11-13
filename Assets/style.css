@@ -16,9 +16,9 @@ body {
 
 .title {
   font-size: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: font-family: 'Azeret Mono', monospace;
   color: white;
-  margin-left:40%
+  margin-left: 40%
 }
 
 .navbar {
@@ -103,13 +103,12 @@ body {
   }
   .title {
     font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    font-family: font-family: 'Azeret Mono', monospace;
+    color: pink;
     margin-left: 30%;
   }
   .navbar {
-    background-color: brown
-    width: 100%;
+    background-color: brown width: 100%;
   }
   .name {
     font-size: 30px;
