@@ -108,14 +108,14 @@ body {
     margin-left: 30%;
   }
   .navbar {
-    background-color: brown width: 100%;
+    background-color: rgb(59, 8, 8) width: 100%;
   }
   .name {
     font-size: 30px;
     color: white;
   }
   .foot {
-    background-color: #E89119;
+    background-color: #eebf7e;
     height: 50px;
     color: white;
     text-align: center;
@@ -133,7 +133,7 @@ body {
   }
   .card {
     background-color: #CBF3F0;
-    border: #E89119 5px;
+    border: #d3f37c 5px;
     padding: 5px;
     margin-right: 5px;
     width: 100%;
